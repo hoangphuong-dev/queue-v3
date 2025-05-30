@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Action cho điều phối bệnh nhân -->
+    <record id="action_coordinator_dashboard" model="ir.actions.client">
+        <field name="name">Điều phối bệnh nhân</field>
+        <field name="tag">coordinator_dashboard</field>
+    </record>
+
+    <!-- Menu điều phối -->
+    <menuitem id="menu_coordinator" 
+              name="Điều phối" 
+              parent="menu_hospital_queue_root"
+              sequence="3"/>
+
+    <menuitem id="menu_coordinator_dashboard" 
+              name="Bảng điều phối" 
+              parent="menu_coordinator"
+              action="action_coordinator_dashboard" 
+              sequence="10"/>
+</odoo>

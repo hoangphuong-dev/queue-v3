@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Bệnh nhân 1: Lê Thị Hồ - VVIP -->
+        <record id="patient_le_thi_ho" model="res.partner">
+            <field name="name">Lê Thị Hồ</field>
+            <field name="is_patient" eval="True"/>
+            <field name="patient_category">vvip</field>
+            <field name="patient_id_number">346536243</field>
+            <field name="date_of_birth">1985-03-15</field>
+            <field name="gender">female</field>
+            <field name="is_vip" eval="True"/>
+        </record>
+
+        <!-- Bệnh nhân 2: Nguyễn Vũ Nam - KH thường -->
+        <record id="patient_nguyen_vu_nam" model="res.partner">
+            <field name="name">Nguyễn Vũ Nam</field>
+            <field name="is_patient" eval="True"/>
+            <field name="patient_category">normal</field>
+            <field name="patient_id_number">123456789</field>
+            <field name="date_of_birth">1978-07-22</field>
+            <field name="gender">male</field>
+        </record>
+
+        <!-- Bệnh nhân 3: Trương Gia Khánh - Trẻ em -->
+        <record id="patient_truong_gia_khanh" model="res.partner">
+            <field name="name">Trương Gia Khánh</field>
+            <field name="is_patient" eval="True"/>
+            <field name="patient_category">child</field>
+            <field name="patient_id_number">435251346</field>
+            <field name="date_of_birth">2015-12-08</field>
+            <field name="gender">male</field>
+        </record>
+
+        <!-- Bệnh nhân 4: Lê Bảo Bình - Thai phụ -->
+        <record id="patient_le_bao_binh" model="res.partner">
+            <field name="name">Lê Bảo Bình</field>
+            <field name="is_patient" eval="True"/>
+            <field name="patient_category">pregnant</field>
+            <field name="patient_id_number">243623532</field>
+            <field name="date_of_birth">1992-05-18</field>
+            <field name="gender">female</field>
+            <field name="is_pregnant" eval="True"/>
+        </record>
+
+        <!-- Bệnh nhân 5: Gia Cát Lượng - NCCVCM -->
+        <record id="patient_gia_cat_luong" model="res.partner">
+            <field name="name">Gia Cát Lượng</field>
+            <field name="is_patient" eval="True"/>
+            <field name="patient_category">nccvcm</field>
+            <field name="patient_id_number">436125211</field>
+            <field name="date_of_birth">1965-11-30</field>
+            <field name="gender">male</field>
+        </record>
+
+        <!-- Bệnh nhân 6: Trần Thanh Tâm - Người già -->
+        <record id="patient_tran_thanh_tam" model="res.partner">
+            <field name="name">Trần Thanh Tâm</field>
+            <field name="is_patient" eval="True"/>
+            <field name="patient_category">elderly</field>
+            <field name="patient_id_number">783454152</field>
+            <field name="date_of_birth">1950-02-14</field>
+            <field name="gender">female</field>
+        </record>
+
+        <!-- Bệnh nhân 7: Nguyễn Vũ Nam (VIP) -->
+        <record id="patient_nguyen_vu_nam_vip" model="res.partner">
+            <field name="name">Nguyễn Vũ Nam</field>
+            <field name="is_patient" eval="True"/>
+            <field name="patient_category">vip</field>
+            <field name="patient_id_number">123456790</field>
+            <field name="date_of_birth">1980-09-10</field>
+            <field name="gender">male</field>
+            <field name="is_vip" eval="True"/>
+        </record>
+
+        <!-- Bệnh nhân 8: Nguyễn Vũ Nam (thường) -->
+        <record id="patient_nguyen_vu_nam_normal" model="res.partner">
+            <field name="name">Nguyễn Vũ Nam</field>
+            <field name="is_patient" eval="True"/>
+            <field name="patient_category">normal</field>
+            <field name="patient_id_number">123456791</field>
+            <field name="date_of_birth">1975-04-25</field>
+            <field name="gender">male</field>
+        </record>
+
+        <!-- Bệnh nhân 9: Trương Gia Khánh (thứ 2) -->
+        <record id="patient_truong_gia_khanh_2" model="res.partner">
+            <field name="name">Trương Gia Khánh</field>
+            <field name="is_patient" eval="True"/>
+            <field name="patient_category">child</field>
+            <field name="patient_id_number">435251347</field>
+            <field name="date_of_birth">2018-08-03</field>
+            <field name="gender">female</field>
+        </record>
+    </data>
+</odoo>

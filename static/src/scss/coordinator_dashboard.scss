@@ -1,0 +1,42 @@
+.coordinator-dashboard {
+    .badge.bg-pink {
+        background-color: #e83e8c !important;
+    }
+
+    .badge.bg-purple {
+        background-color: #6f42c1 !important;
+    }
+
+    .service-card {
+        transition: all 0.2s ease;
+
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .room-badge {
+        font-size: 0.85rem;
+
+        .load-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-left: 4px;
+
+            &.load-low {
+                background-color: #28a745;
+            }
+
+            &.load-medium {
+                background-color: #ffc107;
+            }
+
+            &.load-high {
+                background-color: #dc3545;
+            }
+        }
+    }
+}
